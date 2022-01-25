@@ -1,0 +1,26 @@
+button {
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  border-radius: 10px;
+  border: none;
+  width: 30vw;
+}
+
+button[disabled] {
+  opacity: 0.3;
+  cursor: not-allowed;
+}
+
+button[disabled]:hover {
+  opacity: 0.3;
+  cursor: not-allowed;
+}
+
+button:hover {
+  opacity: 0.7;
+}
+
+.buttons {
+  display: flex;
+  gap: 2em;
+}

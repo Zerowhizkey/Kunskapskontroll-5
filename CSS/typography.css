@@ -1,0 +1,18 @@
+/* font buttons */
+
+button {
+    font-family: cursive;
+}
+
+/* font and weight for page-indicator */
+
+.page-indicator {
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+/* Font for h1 */
+
+h1 {
+    font-family: fantasy;
+}

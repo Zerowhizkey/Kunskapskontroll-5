@@ -1,0 +1,26 @@
+* {
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+img {
+  aspect-ratio: 1 / 1;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 150px;
+}
+
+.results {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  max-width: 50rem;
+  margin: 1em auto 0 auto;
+  gap: 20px;
+}
+
